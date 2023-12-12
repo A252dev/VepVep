@@ -1,0 +1,134 @@
+/* CHANGE THE PARAMETERS */
+
+.pr-bg {
+    background: none;
+    outline: 0;
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 67%;
+    padding: 1%;
+}
+
+.user-control-sub {
+    padding: 2%;
+    width: 25%;
+    position: absolute;
+    right: 68px;
+    top: 70px;
+    /* border: 1px solid green; */
+    display: flex;
+    background-image: radial-gradient(farthest-corner at 0 0, #242424 0%, rgba(30, 30, 48, 0.85) 100%);
+    outline: 1px solid #3f3f3f;
+    display: none;
+}
+
+/* SETTINGS */
+
+.user-info-hd {
+    width: 100%;
+    max-width: 65%;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+    background-image: radial-gradient(farthest-corner at 0 0, #242424 0%, rgba(30, 30, 48, 0.85) 100%);
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    outline: 1px solid #3f3f3f;
+
+}
+
+.user-info-img {
+    width: 64px;
+}
+
+.user-title-hd {
+    color: #dedee1;
+    font-size: 18px;
+    margin-left: 2.5%;
+}
+
+/* SETTINGS CONTENT */
+
+.settings-ct {
+    /* border: 1px solid green; */
+    width: 100%;
+    max-width: 65%;
+    box-sizing: border-box;
+}
+
+.settings-title {
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.settings-subtitle {
+    color: #DEDEE1;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 7px;
+}
+
+.settings-input {
+    resize: vertical;
+    background: #515162;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+}
+
+.settings-input:focus {
+    outline: 0;
+    background: #515162;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+}
+
+.settings-undertitle {
+    color: #AFAFB7;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 18px;
+}
+
+.settings-submit-btw {
+    margin-top: 20px;
+    color: #000;
+    padding: 9px 15px;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 400ms;
+    transition-property: background-color;
+    font-family: 'Inter', sans-serif;
+}
+
+.settings-submit-btw:hover {
+    margin-top: 20px;
+    color: #000;
+    padding: 9px 15px;
+    background: #AFAFB7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+.textarea {
+    height: 180px;
+}
